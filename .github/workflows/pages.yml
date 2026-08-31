@@ -17,7 +17,7 @@ jobs:
   build:
     permissions:
       contents: read
-    uses: bajor/notes-website-factory/.github/workflows/build-pdf-site.yml@main
+    uses: bajor/notes-website-factory-workflow/.github/workflows/build-pdf-site.yml@main
     with:
       site-title: Algorithms for Slow Learners
 
